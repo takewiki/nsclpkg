@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' qalist_idize();
-qalist_idize <- function(brand){
+qalist_idize <- function(brand='JBLH'){
 
   #问题ID-------
 

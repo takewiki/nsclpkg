@@ -4,7 +4,7 @@
 \alias{qalist_idize}
 \title{按品牌处理问题答案及对话的ID化问题}
 \usage{
-qalist_idize(brand)
+qalist_idize(brand = "JBLH")
 }
 \arguments{
 \item{brand}{品牌}
