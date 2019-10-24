@@ -41,6 +41,9 @@ qalist_idize <- function(brand='JBLH'){
   #fix the bug
   #字段名称区分大小写FQestionId与FQuestionID是不同的字段
   nsim_save(data_vw_qa_id,'qalist_ID','FQAId');
+  #存在BUG，后续进行修复
+  #[1] "处理了56060条问题ID化记录\n处理了52591条答案ID化记录\n处理了101150条QA-ID化记录"
+  #[1] "处理了56060条问题ID化记录\n处理了52591条答案ID化记录\n处理了101729条QA-ID化记录"
 
 
 
